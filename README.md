@@ -23,6 +23,13 @@ $ dnf install -y libtree
 $ dnf upgrade -y libtree
 ```
 
+## Remove
+
+```
+$ dnf erase -y libtree
+$ dnf copr remove pkgstore/lib
+```
+
 ## How to Build
 
 1. Get source from [src.fedoraproject.org](https://src.fedoraproject.org/rpms/libtree).
